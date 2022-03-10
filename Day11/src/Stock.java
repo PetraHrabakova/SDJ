@@ -7,8 +7,7 @@ public class Stock
     this.symbol = symbol;
     this.price = price;
   }
-  public Stock copy()
-  {
+  public Stock copy() {
     // Create a new Stock object and initialize it
     // with the same data held by the calling object.
     Stock copyObject = new Stock(symbol, price);
