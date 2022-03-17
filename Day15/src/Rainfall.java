@@ -40,10 +40,4 @@ public class Rainfall
     }
     return monthWithLeast;
   }
-
-
-
-
-
-
 }

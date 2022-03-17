@@ -7,8 +7,6 @@ public class GradeList
     for(int i = 0; i < numberOfGrades; i++) {
       grades[i] = -1;
     }
-
-
   }
 
   public int getNumberOfGrades() {
