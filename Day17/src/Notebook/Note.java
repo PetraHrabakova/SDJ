@@ -1,3 +1,5 @@
+package Notebook;
+
 public class Note
 {
   String message;

@@ -60,7 +60,7 @@ public class Notebook
     int count = 0;
     for (int i = 0; i < getNumberOfNotes(); i++) {
       if (notes[i].isHighPriority()) {
-        count+=0;
+        count+=1;
       }
     }
     return count;
