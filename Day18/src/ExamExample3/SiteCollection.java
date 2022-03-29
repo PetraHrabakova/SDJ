@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class SiteCollection
 {
-  int size;
-  ArrayList<Website> webSite;
+  private int size;
+  private ArrayList<Website> webSite;
 
   public SiteCollection(int maxSites) {
     webSite = new ArrayList<Website>();
@@ -50,7 +50,7 @@ public class SiteCollection
     Website[] newArray = new Website[webSite.size()];
 
     for (int i = 0; i < webSite.size(); i++) {
-      if(webSite.get(i).needsUpdate) {
+      if(webSite.get(i).needsUpdate()) {
         newArray[i] = webSite.get(i);
       }
     }

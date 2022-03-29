@@ -2,8 +2,8 @@ package ExamExample3;
 
 public class Website
 {
-  String url;
-  boolean needsUpdate;
+  private String url;
+  private boolean needsUpdate;
 
   public Website(String url) {
     this.url = url;
