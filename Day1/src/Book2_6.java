@@ -17,9 +17,5 @@ public class Book2_6
     int result = x + z + a;     // sum of them
 
     System.out.println("The sum of integers is: " + result);
-
-
   }
-
-
 }

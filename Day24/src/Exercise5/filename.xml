@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<firstname>Petra</firstname>
+		<lastname>Hrabakova</lastname>
+		<country>Czechia</country>
+	</student>
+	<student>
+		<firstname>Veronica</firstname>
+		<lastname>Tverdohleb</lastname>
+		<country>Moldova</country>
+	</student>
+</students>
