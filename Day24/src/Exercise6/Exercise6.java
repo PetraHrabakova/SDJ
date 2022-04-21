@@ -19,10 +19,9 @@ public class Exercise6
     list.add(new Student("John", "Doe", "USA"));
 
 
-
     try
     {
-      // Create new binary file
+      // Create new html file
       FileInputStream fileIn = new FileInputStream("C:\\Users\\Petra\\SDJ\\Day24\\src\\Exercise6\\template.html");
       read = new Scanner(fileIn);
     }
@@ -69,7 +68,6 @@ public class Exercise6
       write = new PrintWriter(fileOut);
 
       for (int i = 0; i < htmlFile.size(); i++) {
-        System.out.println(htmlFile.get(i));
         write.print(htmlFile.get(i));
       }
     }
