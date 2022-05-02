@@ -35,6 +35,7 @@ public class HourlyEmployee extends Employee
     return wagePerHour * hoursWorkedPerWeek;
   }
 
+
   public String toString() {
     return super.toString() + "\nWage per hour: " + wagePerHour +
         "\nHours worked per week: " + hoursWorkedPerWeek;
